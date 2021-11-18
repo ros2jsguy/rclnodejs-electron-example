@@ -10,7 +10,7 @@ No bundler, e.g., Webpack, is used.
 ## Getting Started
 1. Clone this repository
 ```
-git clone xxx`
+git clone https://github.com/ros2jsguy/rclnodejs-electron-example
 ```
 
 2. Install JavaScript dependencies
