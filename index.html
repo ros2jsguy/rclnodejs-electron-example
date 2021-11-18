@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <!-- https://developer.mozilla.org/en-US/docs/Web/HTTP/CSP -->
+    <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self'">
+    <meta http-equiv="X-Content-Security-Policy" content="default-src 'self'; script-src 'self'">
+    <title>Electron-Rclnodejs-Example</title>
+  </head>
+  <body>
+    <h1>ROS 2 Publisher/Subscriber</h1>
+    <p>
+        Topic: topic <br>
+        Message type: std_msgs/msg/String <br>
+        Node.js: <span id="node-version"></span> <br>
+        Chromium: <span id="chrome-version"></span> <br>
+        Electron: <span id="electron-version"></span> <br>
+        <br>
+        View topic using ros2 cli: <br>
+        <pre>
+            ros2 topic echo topic std_msgs/msg/String
+        </pre>
+    </p>
+  </body>
+</html>

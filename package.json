@@ -1,0 +1,23 @@
+{
+  "name": "rclnodejs-electron-example",
+  "version": "0.0.1",
+  "description": "",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron ."
+  },
+  "keywords": [
+    "ros2",
+    "electron",
+    "rclnodejs"
+  ],
+  "author": "ros2jsguy@gmail.com",
+  "license": "MIT",
+  "devDependencies": {
+    "electron": "^16.0.0",
+    "electron-rebuild": "^3.2.5"
+  },
+  "dependencies": {
+    "rclnodejs": "github:RobotWebTools/rclnodejs#nodejs-16"
+  }
+}
